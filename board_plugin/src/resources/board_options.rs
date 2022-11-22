@@ -58,12 +58,11 @@ impl Default for BoardOptions {
     fn default() -> Self {
         Self {
             map_size: (15, 15),
-            bomb_count: 30,
+            bomb_count: 40,
             position: Default::default(),
             tile_size: Default::default(),
-            tile_padding: 0.,
+            tile_padding: 3.,
             safe_start: false,
         }
     }
 }
-
